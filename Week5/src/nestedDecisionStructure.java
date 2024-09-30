@@ -33,12 +33,20 @@ public class nestedDecisionStructure {
                         userInput5 = scan.nextBoolean();
                         if(userInput5 == inStock){
                             System.out.println("Coupon");
+                        }else{
+                            System.out.println("You failed to pick the 5th lock");
                         }
+                    }else{
+                        System.out.println("You failed to pick the 4th lock");
                     }
                 }else{
-                    System.out.println("You failed to pick the lock");
+                    System.out.println("You failed to pick the 3rd lock");
                 }
+            }else{
+                System.out.println("You failed to pick the 2nd lock");
             }
+        }else{
+            System.out.println("You failed to pick the 1st lock");
         }
 
     }
