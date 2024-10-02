@@ -1,0 +1,119 @@
+
+
+Cafe Compliance Report
+----------------------
+Vehicle Footprint: 34.44 sq. ft.
+Target Fuel Economy: 12.23 mpg.
+
+
+Model           Production Amount    MPG Rating
+-----           -----------------    ----------
+java            2000                 23.93     
+python          21000                24.99     
+ruby            32000                23.04     
+
+Fleet Fuel Economy: 32.4 mpg
+
+Compliance Status: Pass
+
+
+Cafe Compliance Report
+----------------------
+Vehicle Footprint: 34.44 sq. ft.
+Target Fuel Economy: 12.23 mpg.
+
+
+Model           Production Amount    MPG Rating
+-----           -----------------    ----------
+java            2000                 23.93     
+python          21000                24.99     
+ruby            32000                23.04     
+
+Fleet Fuel Economy: 32.4 mpg
+
+Compliance Status: Pass
+
+
+Cafe Compliance Report
+----------------------
+Vehicle Footprint: 34.44 sq. ft.
+Target Fuel Economy: 12.23 mpg.
+
+
+Model           Production Amount    MPG Rating
+-----           -----------------    ----------
+java            2000                 23.93     
+python          21000                24.99     
+ruby            32000                23.04     
+
+Fleet Fuel Economy: 32.4 mpg
+
+Compliance Status: Pass
+
+
+Cafe Compliance Report
+----------------------
+Vehicle Footprint: 34.44 sq. ft.
+Target Fuel Economy: 12.23 mpg.
+
+
+Model           Production Amount    MPG Rating
+-----           -----------------    ----------
+java            2000                 23.93     
+python          21000                24.99     
+ruby            32000                23.04     
+
+Fleet Fuel Economy: 32.4 mpg
+
+Compliance Status: Pass
+
+
+Cafe Compliance Report
+----------------------
+Vehicle Footprint: 34.44 sq. ft.
+Target Fuel Economy: 12.23 mpg.
+
+
+Model           Production Amount    MPG Rating
+-----           -----------------    ----------
+java            2000                 23.93     
+python          21000                24.99     
+ruby            32000                23.04     
+
+Fleet Fuel Economy: 32.4 mpg
+
+Compliance Status: Pass
+
+
+Cafe Compliance Report
+----------------------
+Vehicle Footprint: 34.44 sq. ft.
+Target Fuel Economy: 12.23 mpg.
+
+
+Model           Production Amount    MPG Rating
+-----           -----------------    ----------
+java            2000                 23.93     
+python          21000                24.99     
+ruby            32000                23.04     
+
+Fleet Fuel Economy: 32.4 mpg
+
+Compliance Status: Pass
+
+
+Cafe Compliance Report
+----------------------
+Vehicle Footprint: 34.44 sq. ft.
+Target Fuel Economy: 12.23 mpg.
+
+
+Model           Production Amount    MPG Rating
+-----           -----------------    ----------
+45691856        2000                 23.93     
+python          21000                24.99     
+ruby            32000                45612301654.04
+
+Fleet Fuel Economy: 32.4 mpg
+
+Compliance Status: Pass
