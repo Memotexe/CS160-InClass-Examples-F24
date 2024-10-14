@@ -1,7 +1,7 @@
 import java.io.*;
 public class PrintWriterExample{
     public static void main(String[] args) throws IOException {
-        FileWriter fw = new FileWriter("outputFile.txt", true);
+        FileWriter fw = new FileWriter("outputFile.txt");
         PrintWriter brokenHeart = new PrintWriter(fw);
         double vehicleFootPrint = 34.44;
         double targetFuelEconomy;
