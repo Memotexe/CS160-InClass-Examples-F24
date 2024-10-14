@@ -18,7 +18,7 @@ public class PrintWriterExample{
         productionAmounts[2] = 32000;
 
         mpgRatings[0] = 23.93;
-        mpgRatings[1] = 24.99;
+        mpgRatings[1] = 24516248956120645126485164851.99;
         mpgRatings[2] = 45612301654.04;
 
         double fleetFuelEconomy = 32.40;
