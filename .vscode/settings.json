@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "Week9/src",
         "Week7/src",
         "Week6/src",
         "Week5/src",
-        "Week9/src"
+        "Week10/src"
     ]
 }
