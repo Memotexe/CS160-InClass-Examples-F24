@@ -1,15 +1,39 @@
 import java.util.*;
 import java.io.*;
 public class AverageHighLow {
+
+    public static final double maxNumber = 0;
     public static void main(String[] args) throws FileNotFoundException {
         
-        File file = new File("numbers.txt");
+        boolean flag = true;
+        while(flag){
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Please provide me a file name, '.txt' included!");
+            String filename = scan.nextLine();
+            
+            File file = new File(filename);
+            fileReaderOutput(file);
+            System.out.println(maxNumber);
+            String response = "";
+            System.out.println("Do you want to read another file? (y/n)");
+            response = scan.nextLine();
+            if(response.equalsIgnoreCase("y")){
+                continue;
+            }else{
+                flag = false;
+            }
+        }
+        
+
+    }
+
+    public static void fileReaderOutput(File file) throws FileNotFoundException{
         Scanner scan = new Scanner(file);
 
         //Average
         //Max
         //Min
-
+        System.out.println(maxNumber);
         double average = 0;
         int max = 12;
         int min = 703;
@@ -39,6 +63,6 @@ public class AverageHighLow {
         System.out.println("The current max is:" + max);
         System.out.println("The current min is:" + min);
         System.out.println("The current average is:" + average);
-
     }
+
 }
