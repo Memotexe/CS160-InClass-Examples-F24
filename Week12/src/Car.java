@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Car {
 
     private String make;
@@ -13,12 +15,13 @@ public class Car {
     private boolean doesItRun;
     private boolean doBumperStickersExist;
     private String fuelType;
+    private int carVictims;
 
 
 
     public Car(String make, String model, int year, int mileage, double cityMPG, double highwayMPG, double price,
             String color, boolean isSalvage, String carFacts, boolean doesItRun, boolean doBumperStickersExist,
-            String fuelType) {
+            String fuelType, int carVictims) {
         this.make = make;
         this.model = model;
         this.year = year;
@@ -32,12 +35,35 @@ public class Car {
         this.doesItRun = doesItRun;
         this.doBumperStickersExist = doBumperStickersExist;
         this.fuelType = fuelType;
+        this.carVictims = carVictims;
     }
 
     public void depreciation(){
         double depreciationValue = this.year + (this.mileage * 0.01);
         this.price = this.price - depreciationValue;
     }
+
+    public void doorDinkgs(int dingks){
+        if(this.price >= 1000){
+            this.price = this.price - (dingks * 100);
+        }else{
+            System.out.println("EHHH IM ALREADY A FEW STELLAS IN BRUV I DONT CARE ABOUT MY"
+             + "BEATER, WHO CARES");
+        }
+    }
+
+    public void NewPaintJob(){
+        Scanner scan = new Scanner(System.in);
+        if(this.carVictims % 5 == 0){
+            System.out.println("What color do you want");
+            this.color = scan.nextLine();
+            doorDinkgs(carVictims);
+            System.out.println("Your " + this.year + " " + this.make + " " + this.model 
+            + "'s car color is now" + this.color);
+        }
+    }
+
+
 
 
     public String getMake() {
@@ -76,7 +102,7 @@ public class Car {
 
 
     public void setMileage(int mileage) {
-        this.mileage = mileage;
+        this.mileage += mileage;
     }
 
 
@@ -167,6 +193,14 @@ public class Car {
 
     public void setFuelType(String fuelType) {
         this.fuelType = fuelType;
+    }
+
+    public int getCarVictims() {
+        return carVictims;
+    }
+
+    public void incrementCarVictims() {
+        this.carVictims++;
     }
 
 

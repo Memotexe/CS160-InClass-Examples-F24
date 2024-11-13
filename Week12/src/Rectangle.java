@@ -8,6 +8,11 @@ public class Rectangle {
         this.width = width;
     }
 
+    public Rectangle(){
+        this.length = 0;
+        this.width = 0;
+    }
+
     public double getLength() {
         return length;
     }
