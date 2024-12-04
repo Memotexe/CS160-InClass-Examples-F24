@@ -1,5 +1,8 @@
+
 public class CourseRegistration {
+    
     public static void main(String[] args) {
+
         String lastName = "Sparks";
         String firstName = "Tyler";
         String officeNumber = "KT72";
