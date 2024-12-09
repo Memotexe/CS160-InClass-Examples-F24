@@ -76,4 +76,14 @@ public class Course {
         return true;
     }
 
+    public boolean equals(Course course){
+        if((this.instructor.equals(course.instructor)) && (this.textBook.equals(course.textBook))){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    //Changes Made
+
 }
