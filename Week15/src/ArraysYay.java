@@ -48,6 +48,18 @@ public class ArraysYay {
         return average;
     }
 
+    public static double[] arrayMaker(){
+        double array[] = new double[15];
+
+        Random rand = new Random();
+        
+        for(int i = 0; i< array.length; i++){
+            array[i] = rand.nextDouble();
+        }
+
+        return array;
+    }
+
 
 
 
